@@ -1,0 +1,64 @@
+body {
+    margin: auto;
+    min-width: 1000px;
+    font-family: Courier;
+    word-spacing: 3px;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    text-shadow: 1px 0px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    color: red;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 60%;
+}
+
+aside {
+    width: 25%;
+}
+
+aside ul {
+    line-height: 1.3em;
+}
+
+nav {
+    width: 15%;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid rgba(189, 90, 90, 0.582);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header, footer {
+    border-top: 5px solid rebeccapurple;
+    border-bottom: 5px solid rebeccapurple;
+}
